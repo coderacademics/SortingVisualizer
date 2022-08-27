@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(69, 69, 69);
+}
+li{
+    background-color: rgb(177, 177, 248);
+    width:0.5em;
+    margin: 0.3em;
+  
+}
+.array{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    cursor: pointer;
+    margin: 1em;
+    padding: 0.5em;
+    font-size:1em;
+    border: 0.2em solid rgb(159, 159, 255);
+    border-radius: 15px;
+    /* color: whitesmoke; */
+    background-color: whitesmoke;
+}
+.btn:hover{
+   transform: scale(1.1);
+}
+.slider:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
